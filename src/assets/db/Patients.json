@@ -1,0 +1,37 @@
+[
+  {
+    "id": "1",
+    "Name": "Pranav Waykar",
+    "Contact": "9762804636",
+    "Room": "1",
+    "Bill": "15000"
+  },
+  {
+    "id": "2",
+    "Name": "Shubham Pawar",
+    "Contact": "9865758966",
+    "Room": "5",
+    "Bill": "1200"
+  },
+  {
+    "id": "3",
+    "Name": "Jay Sharma",
+    "Contact": "8867984579",
+    "Room": "12",
+    "Bill": "43060"
+  },
+  {
+    "id": "4",
+    "Name": "Yash Joshi",
+    "Contact": "9977798568",
+    "Room": "7",
+    "Bill": "890"
+  },
+  {
+    "id": "5",
+    "Name": "Akash Singh",
+    "Contact": "7789684589",
+    "Room": "4",
+    "Bill": "7823"
+  }
+]

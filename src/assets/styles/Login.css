@@ -1,0 +1,29 @@
+/* Login Css */
+.main-container {
+  background-image: url("../images/img1.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+  top: 0;
+}
+
+.formMain {
+  width: 100%;
+  height: auto;
+}
+
+.formInner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid black;
+  /* background-color: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); */
+  border-radius: 30px;
+  width: 50%;
+  height: 60vh;
+  padding: 20px;
+  margin: 20px auto;
+
+  backdrop-filter: blur(1rem);
+  box-shadow: 1.3rem 1.3rem 1.3rem rgba(0, 0, 0, 0.5);
+}

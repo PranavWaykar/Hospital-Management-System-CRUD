@@ -1,0 +1,40 @@
+.hero-section {
+  background-image: url(../images/img4.JPEG);
+  background-repeat: no-repeat;
+
+  background-size: 100% 100%;
+  height: 90vh;
+  top: 0;
+}
+
+/* .card1, .card2, .card3{
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.7);
+}
+   */
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.vid-content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: linear-gradient(to right, #dd2476, #ff512f);
+}
+
+.card {
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.7);
+  transition: all 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.07);
+}

@@ -1,13 +1,21 @@
-const reportWebVitals = onPerfEntry => {
-  if (onPerfEntry && onPerfEntry instanceof Function) {
-    import('web-vitals').then(({ getCLS, getFID, getFCP, getLCP, getTTFB }) => {
-      getCLS(onPerfEntry);
-      getFID(onPerfEntry);
-      getFCP(onPerfEntry);
-      getLCP(onPerfEntry);
-      getTTFB(onPerfEntry);
-    });
-  }
-};
+import { useEffect } from "react";
+import { Link, useNavigate } from "react-router-dom";
 
-export default reportWebVitals;
+function Protected(props) {
+  const { Component } = props;
+  const navigate = useNavigate();
+  useEffect(() => {
+    let login = localStorage.getItem("login");
+    if (!login) {
+      navigate("/");
+    }
+  });
+
+  return (
+    <>
+      <Component />
+    </>
+  );
+}
+
+export default Protected;
